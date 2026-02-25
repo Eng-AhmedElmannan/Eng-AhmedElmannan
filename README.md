@@ -1,8 +1,15 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Ahmed%20Elmannan&fontSize=46&fontColor=f8fafc&animation=fadeIn&fontAlignY=40&desc=Executive%20Vice%20President%20of%20Technology%20%E2%80%94%20CircleAI&descAlignY=62&descColor=94a3b8)
+<!-- Dynamic header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:6366f1&height=160&section=header&text=Ahmed%20Ata%20Elmannan&fontSize=36&fontColor=ffffff&fontAlignY=45&desc=EVP%20of%20Technology%20%E2%80%94%20CircleAI%20Ecosystem&descSize=16&descAlignY=68&descColor=c7d2fe" width="100%" alt="header"/>
 
-*Enterprise SaaS · AI Platform Architecture · Saudi & Gulf Digital Transformation*
+**Executive Vice President of Technology**
+*Enterprise Software Architecture · Cloud-Native SaaS · AI Systems Design*
+
+[![Location](https://img.shields.io/badge/📍-Saudi%20Arabia%20%7C%20Gulf%20Region-1e3a5f?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![Focus](https://img.shields.io/badge/Focus-Enterprise%20SaaS%20%7C%20Multi--Tenant%20Platforms-6366f1?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![Security](https://img.shields.io/badge/Security-SOC2%20%7C%20ISO27001%20Ready-10b981?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![Vision](https://img.shields.io/badge/Vision-Saudi%20Vision%202030-dc2626?style=flat-square)](https://github.com/Eng-AhmedElmannan)
 
 </div>
 
@@ -10,162 +17,311 @@
 
 ## Executive Introduction
 
-I am the Executive Vice President of Technology at **CircleAI** — an enterprise SaaS and artificial intelligence company building intelligent vertical platforms for the Saudi and Gulf market.
+I lead platform architecture and product strategy for the **CircleAI** ecosystem — a suite of
+enterprise-grade, multi-tenant SaaS platforms purpose-built for the Saudi and Gulf markets.
 
-I architect platforms not for features — but for institutional longevity.
+My work sits at the intersection of distributed systems design, enterprise security architecture,
+and AI-augmented product strategy. Every platform I build is designed to operate at compliance
+grade from day one: SOC 2-aligned audit trails, cryptographic data isolation, zero-trust permission
+models, and AWS-native infrastructure with full observability.
 
-My mandate spans the full technology lifecycle: platform architecture, AI integration strategy, security governance, engineering leadership, and the long-term technology roadmap aligned with regional market vision.
-
----
-
-## Technology Leadership
-
-As EVP of Technology, I operate at the intersection of engineering excellence and strategic business outcomes:
-
-- Defining multi-year technology architecture and platform strategy
-- Leading cross-functional engineering teams across product, platform, and AI
-- Driving AI integration as a core capability — not a feature overlay
-- Establishing security and governance frameworks at the platform level
-- Representing technology vision to investors, partners, and enterprise clients
-- Translating Saudi Vision 2030 imperatives into engineered, production-grade solutions
+The platforms I architect are not prototypes. They carry production workloads for law firms,
+enterprises, and public-sector entities — environments where uptime, data integrity, and regulatory
+compliance are non-negotiable.
 
 ---
 
-## About CircleAI
+## The CircleAI Ecosystem
 
-**CircleAI** is an enterprise SaaS and AI company building intelligent vertical platforms for regulated professional service markets across Saudi Arabia and the Gulf.
-
-We design and operate production-grade, multi-tenant systems for industries where precision, security, and compliance are non-negotiable. Our platforms serve legal, HR, and financial operations — sectors undergoing rapid transformation as part of the Kingdom’s digital modernization agenda.
-
-Our engineering philosophy:
-
-- **Multi-tenancy by design** — complete data isolation enforced at the architectural and data-boundary level
-- **Security-first** — threat modeling and access governance built into every system layer
-- **AI-native** — intelligence embedded in professional workflows, not layered as an afterthought
-- **Enterprise-grade foundations** from the first architectural decision
-
----
-
-## CircleAI Ecosystem
-
-<div align="center">
+**CircleAI** is a unified intelligent enterprise platform composed of three specialized verticals,
+each independently deployable and jointly composable through a shared infrastructure layer.
 
 ```
-              CircleAI Ecosystem
-                     │
-     ┌───────────────┼───────────────┐
-     │               │               │
- CircleLAW       CircleHR       CircleFinance
-  Legal SaaS       HR SaaS      Financial SaaS
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        C I R C L E  A I                                 │
+│              Unified Intelligent Enterprise Platform                    │
+├──────────────────┬──────────────────────┬──────────────────────────────┤
+│   CircleLAW      │    CircleHR          │    CircleFinance             │
+│   ─────────────  │    ──────────────    │    ──────────────────────    │
+│   Enterprise     │    Intelligent       │    Smart Financial           │
+│   Legal Practice │    Human Capital &   │    Operations &              │
+│   Management     │    Payroll Platform  │    Cost Intelligence         │
+│                  │                      │                              │
+│   ✓ LIVE         │    ◎ In Development  │    ◎ In Development          │
+├──────────────────┴──────────────────────┴──────────────────────────────┤
+│                    SHARED PLATFORM LAYER                                │
+│   Multi-Tenant Engine · RBAC/RLS · Audit Trails · Billing Engine       │
+│   AWS ECS/ECR · PostgreSQL Clusters · Redis · Celery · PgBouncer       │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
-</div>
+### CircleLAW — Enterprise Legal Practice Management `[LIVE]`
 
-### ⚖️ CircleLAW — Legal Practice Management SaaS
-An intelligent platform for law firms and legal departments to manage cases, hearings, tasks, billing, and client relationships. Built for the complexity of legal operations in regulated markets, with AI-assisted workflows, role-based access, and full audit accountability.
+Full-lifecycle legal practice management for Saudi law firms and corporate legal departments.
 
-### 👥 CircleHR — Intelligent HR & Payroll Platform
-A comprehensive human capital management system designed for Saudi labor law compliance and intelligent workforce operations. Automates payroll, leave management, performance cycles, and organizational structure with enterprise-grade controls.
+| Capability | Detail |
+|---|---|
+| Case Lifecycle | From intake through judgment, appeal, and enforcement |
+| Court Integration | 160+ Saudi courts, cities, and jurisdictions |
+| Calendar Systems | Hijri + Gregorian dual-calendar with deadline enforcement |
+| Document Engine | OCR pipeline (Arabic + English), template management, digital signatures |
+| Permission Depth | 18+ granular RBAC permissions across 4 access tiers |
+| Compliance | Audit log retention, row-level isolation, encrypted vault |
+| API Surface | 200+ REST endpoints with OpenAPI/Swagger documentation |
 
-### 📊 CircleFinance — Financial Intelligence & Governance Platform
-A financial management and intelligence platform for professional service firms and enterprise finance teams. Combines structured financial governance with AI-driven insights for budgeting, invoicing, cash flow, and regulatory compliance.
+### CircleHR — Intelligent Human Capital Platform `[Development]`
+
+AI-augmented HR and payroll intelligence platform aligned with Saudi regulatory requirements.
+
+| Capability | Detail |
+|---|---|
+| Compliance Engine | WPS (Wage Protection System), Qiwa, GOSI integration |
+| AI Copilot | Context-aware HR assistant for policy queries and workflow guidance |
+| Payroll Forecasting | Predictive payroll engine with variance alerts |
+| Smart Scheduling | AI-driven shift optimization and conflict resolution |
+| Expense Governance | OCR receipt processing, policy enforcement, GL integration |
+| Analytics | Predictive attrition modeling, workforce insights |
+| Readiness | ISO27001 / SOC2 architecture from inception |
+
+### CircleFinance — Smart Financial Operations Platform `[Development]`
+
+AI-driven financial intelligence platform for enterprise CFO visibility and operational control.
+
+| Capability | Detail |
+|---|---|
+| Financial Intelligence | AI-driven variance analysis and anomaly detection |
+| Cash Flow Modeling | Predictive rolling forecasts with scenario simulation |
+| Budget Governance | Real-time budget consumption with threshold alerting |
+| GL Automation | Automated journal entries with rule-based posting engine |
+| ERP Integration | Standardized integration layer for Odoo, SAP, Oracle |
+| Risk Scoring | Vendor and counterparty risk models |
+| CFO Dashboards | Executive KPI visualization with drill-through capability |
+| Multi-Entity | Consolidated reporting across legal entities and cost centers |
 
 ---
 
-## Engineering & Architecture Philosophy
+## Platform Architecture Philosophy
 
-I design systems that are built to last, built to scale, and built to be trusted.
+> *"Design for isolation first. Compose second. Scale third."*
 
-**Principles that define our platform architecture:**
+Every platform in the CircleAI ecosystem follows five non-negotiable architectural principles:
 
-- **Isolation by design** — every tenant operates within a fully enforced data boundary; architecture guarantees separation
-- **Minimal attack surface** — access control is governed at every layer, with no implicit trust
-- **Observability by default** — systems are instrumented for performance, audit, and anomaly detection from inception
-- **Clean domain boundaries** — strict service contracts prevent architectural entropy at scale
-- **Progressive delivery** — capabilities ship in controlled, measurable increments with clear rollback paths
+**1. Tenant Isolation at the Database Layer**
+Each customer operates on a dedicated PostgreSQL database with no shared table space.
+PgBouncer (transaction mode) provides connection pooling without compromising isolation.
+Cross-database foreign keys are explicitly prohibited; reference data is routed via a
+purpose-built DB router to the global reference database.
 
-We do not prototype our way to production. Every system is designed for the demands of enterprise clients and regulated markets from the first decision.
+**2. Security as a First-Class Design Constraint**
+Zero-trust is not a feature to be added post-launch. Permission enforcement runs at three
+independent layers: database routing, API viewset policy, and frontend route guards.
+Every sensitive action is audited. Every privileged endpoint requires active session verification.
+
+**3. Upgrade-Safe Modularity**
+Platform modules are structured so that any component can be disabled, upgraded, or replaced
+without side-effects on neighboring modules. Migrations are atomic, reversible, and
+protected by alias guards to prevent cross-database contamination.
+
+**4. Observability by Default**
+Structured JSON logging, APM instrumentation, and Prometheus metrics are wired at the framework
+level — not bolted on. Health endpoints expose dependency status without leaking internal topology.
+
+**5. AI-Readiness Without Vendor Lock-in**
+Platform data models are normalized for AI workload ingestion. Inference endpoints,
+embedding pipelines, and LLM orchestration layers can attach to any CircleAI platform
+through a stable internal API contract — provider-agnostic by design.
+
+---
+
+## Security & Compliance Architecture
+
+```
+Authentication Layer
+  └── Expiring token sessions · 2FA (TOTP/HOTP) · Password invalidation
+
+Authorization Layer
+  └── RBAC: Role → Permission (module.action) · 3-level access: view / partial / full
+  └── RLS:  Tenant DB isolation · Row-filtered queries · Admin bypass with audit log
+
+Data Protection Layer
+  └── Fernet encryption (client vault) · AES field-level encryption
+  └── Row-level change audit · Global audit log (platform ops)
+  └── Automated daily PostgreSQL backups · 30-day retention
+
+Transport & Infrastructure Layer
+  └── HTTPS enforced (HSTS, SECURE_SSL_REDIRECT) · CSRF protection
+  └── CSP headers (Content Security Policy) · Rate limiting (per-user + per-IP)
+  └── Brute-force lockout · Sanitized production error responses
+
+Compliance Posture
+  └── SOC2 Type II aligned · ISO27001 controls mapped
+  └── PDPL (Saudi Personal Data Protection Law) architecture
+  └── Structured audit retention · Zero-knowledge tenant isolation
+```
 
 ---
 
 ## AI Integration Strategy
 
-AI is an operational intelligence layer embedded in the CircleAI product roadmap — not a conversational novelty.
+The CircleAI platforms are engineered with three AI integration layers:
 
-- **Workflow intelligence** — context-aware recommendations surfaced within professional workflows
-- **Document understanding** — automated extraction and classification of legal, financial, and HR documents
-- **Predictive operations** — anticipating anomalies and deviations before they materialize
-- **Arabic-first AI interfaces** — natural language capabilities designed for Gulf professional users
-- **Compliance-aware AI** — all AI capabilities operate within sector-appropriate governance guardrails
+**Layer 1 — Operational Intelligence (CircleLAW, live)**
+Pattern recognition on case timelines, deadline risk scoring based on historical hearing data,
+and automated document classification using the existing OCR pipeline. These are deterministic
+rule-based AI primitives — no external API dependency.
 
-Our AI strategy is delivery-oriented. We ship intelligence that creates measurable business value.
+**Layer 2 — Generative Augmentation (CircleHR, in development)**
+LLM-backed HR Copilot for natural-language policy retrieval, contract clause explanation,
+and onboarding workflow guidance. Built against a provider-agnostic inference interface
+supporting OpenAI, Anthropic, and locally-hosted models.
 
----
+**Layer 3 — Predictive Analytics Engine (CircleFinance, in development)**
+Time-series forecasting for payroll, cash flow, and budget variance. Statistical models
+trained on per-tenant historical data with a federated architecture — tenant data never
+leaves its isolated compute boundary.
 
-## Security & Governance Mindset
-
-Security is an architectural discipline — enforced at every system decision point, not applied at the end.
-
-- **Data isolation** — tenant data is separated at the architectural and data-boundary level; commingling is architecturally prevented
-- **Least privilege by default** — every access path is scoped, audited, and time-bounded
-- **Defense in depth** — independent security controls at the application, service, and infrastructure layers
-- **Full audit accountability** — every material action is logged, attributable, and retrievable
-- **Regulatory alignment** — platforms designed in alignment with Saudi national data governance and cybersecurity frameworks
-
-Enterprise clients entrust us with legal, financial, and human resources data. That trust is earned through architecture.
+**Architecture Constraint**: AI augmentation enhances decision-making. It does not make
+autonomous decisions in legal, payroll, or financial domains. Human confirmation is required
+for any AI-generated output that produces a downstream legal or financial record.
 
 ---
 
-## Saudi & Gulf Market Focus
+## Multi-Tenant Architecture
 
-Saudi Arabia is at the center of one of the most significant economic and digital transformations of the modern era. Vision 2030 is reshaping professional services, enterprise operations, and the technology ecosystem across the Kingdom and the Gulf.
+The CircleAI platforms implement **database-per-tenant** isolation — the most robust
+multi-tenancy model for enterprise workloads.
 
-CircleAI is built for this transformation:
+```
+Platform Request Lifecycle
+─────────────────────────
+HTTP Request
+    │
+    ├─► Platform Auth Middleware   (validates operator token)
+    │
+    ├─► Tenant Resolution          (slug → DB alias lookup)
+    │
+    ├─► DB Router Activation       (routes ORM to tenant DB)
+    │
+    ├─► PgBouncer                  (transaction-mode pooling)
+    │
+    ├─► Tenant PostgreSQL DB       (fully isolated schema)
+    │       ├── Cases, Clients, Invoices, Staff...
+    │       └── No shared tables with any other tenant
+    │
+    └─► Response (tenant-scoped, RLS-filtered)
 
-- Purpose-built platforms for Saudi regulatory frameworks and operational realities
-- Arabic-first product design for professional users across the Gulf
-- Deep understanding of how legal, HR, and finance operations function in the regional context
-- Long-term commitment to regional capability building and market expansion
+Reference Data Path
+────────────────────
+Country / Currency / Global Config
+    └─► DB Router → global reference DB
+        (never accessed from tenant DB — no cross-DB constraints)
+```
 
-We are not adapting global products for the Saudi market. We are building from the Gulf outward.
+**Subscription Lifecycle Management**
+Each tenant subscription follows canonical lifecycle states:
+`trial → active → grace → read_only → locked → cancelled`
+Dunning progression is automated. Billing cycle drives permission enforcement in real time.
+
+---
+
+## Enterprise DevOps & Governance
+
+```
+Branch Strategy
+───────────────
+  feature/* ──┐
+  fix/*  ──┐  ├──► develop ──► main ──► tag vX.Y.Z ──► production
+            └─┘                │
+                               └──► staging (auto-deploy on push)
+```
+
+**CI Pipeline gates** (all must pass before merge to `main`):
+- `lint` — static analysis, security scan, type checking
+- `test` — full test suite with coverage reporting
+- `migration-check` — schema validation + production settings check
+- `security` — dependency vulnerability audit
+- `build` — Docker multi-stage build with layer caching
+
+**Deployment controls**:
+- Production deploys trigger only on strict semver tags
+- Automated database backup before every production deployment
+- Automatic rollback on container task failure
+- Concurrency locks prevent simultaneous staging + production deploys
 
 ---
 
-## Long-Term Vision
+## Saudi & Gulf Digital Transformation
 
-The CircleAI ecosystem is the foundation of a broader ambition: to become the dominant enterprise intelligence platform for professional services across the Gulf and MENA region.
+The CircleAI platforms are architected specifically for the regulatory and cultural context
+of Saudi Arabia and the Gulf Cooperation Council:
 
-Our trajectory:
+- **Arabic-first UX** — RTL layout, Cairo typeface, Arabic error messages, Hijri calendar
+- **Saudi Legal Compliance** — Court taxonomy aligned to MOJ structure, 160+ jurisdictions
+- **Saudi HR Compliance** — WPS (Wage Protection System), Qiwa, GOSI payroll integration
+- **PDPL Alignment** — Saudi Personal Data Protection Law architectural controls
+- **Vision 2030 Positioning** — Replacing imported enterprise software with locally-built,
+  sovereign-grade platforms for Saudi law firms, enterprises, and government entities
+- **SAR Native** — Financial calculations, invoicing, and reporting in Saudi Riyals with
+  cultural formatting (SAR symbol, Arabic numeral conventions)
 
-- Deepening AI capabilities across all three verticals to deliver measurable professional productivity gains
-- Expanding to serve enterprise clients across Saudi Arabia, UAE, Kuwait, and Qatar
-- Building integrations with government platforms, financial institutions, and regulatory bodies
-- Establishing CircleAI as the trusted technology partner for regulated professional services in the region
-- Creating a platform ecosystem that enables vertical extensions and partner-built solutions
+---
 
-We build for the decade, not the quarter.
+## Roadmap
+
+| Horizon | Initiative | Status |
+|---|---|---|
+| **Now** | CircleLAW — Full production deployment, ongoing feature development | ✅ Live |
+| **Q1 2026** | CircleHR Alpha — Core HR, payroll engine, Qiwa/GOSI connectors | 🔨 Active |
+| **Q2 2026** | CircleHR Beta — AI Copilot, smart scheduling, expense OCR | 📋 Planned |
+| **Q2 2026** | CircleFinance Alpha — GL engine, budget governance, CFO dashboard | 📋 Planned |
+| **Q3 2026** | CircleAI Platform Layer — Shared identity, unified billing, SSO | 📋 Planned |
+| **Q4 2026** | CircleFinance Beta — Cash flow AI, ERP integration layer, risk scoring | 📋 Planned |
+| **2027** | CircleAI Unified — Cross-platform intelligence, federated analytics | 🔭 Vision |
+| **2027** | SOC2 Type II Certification — Formal audit engagement | 🔭 Vision |
+| **2027+** | Gulf Regional Expansion — UAE, Kuwait, Bahrain market entry | 🔭 Vision |
 
 ---
 
-## Enterprise Collaboration
+## Leadership Philosophy
 
-I am open to strategic conversations with:
+**Architecture is a long-term bet.**
+Every technical decision I make is evaluated against a 5-year maintenance cost, not a 5-week
+delivery timeline. Premature abstraction and feature-driven complexity are more expensive than
+the problem they were supposed to solve.
 
-- **Enterprise clients** seeking intelligent, secure SaaS solutions for legal, HR, or financial operations
-- **Technology partners** interested in integrating with or building on the CircleAI platform
-- **Investors** aligned with the Gulf enterprise software and AI opportunity
-- **Ecosystem partners** across cloud infrastructure, AI, compliance, and professional services
+**Security cannot be retrofitted.**
+Compliance architecture, encryption design, and audit trail structure are defined before the
+first migration is written — not during a security review after launch.
 
-If you are building or investing at the intersection of enterprise software, AI, and the Gulf market — I would like to speak with you.
+**Multi-tenancy is a first-order constraint.**
+Tenant isolation is not a layer added to a single-tenant system. It is the structural premise
+that determines every database schema, every ORM query, and every permission check.
+
+**AI augments. It does not replace.**
+In legal, HR, and financial domains, AI is a decision-support instrument. Autonomous AI action
+in any domain that produces a legal record, a payroll disbursement, or a financial entry is an
+architectural anti-pattern.
 
 ---
+
+## Contact & Enterprise Collaboration
+
+I engage with organizations seeking to:
+- Architect or audit enterprise SaaS platforms for the Gulf market
+- Accelerate Saudi Vision 2030 digital transformation initiatives
+- Evaluate or adopt CircleLAW, CircleHR, or CircleFinance
+- Establish technical partnerships in the enterprise software space
+
+> For enterprise inquiries, architecture consultations, or partnership discussions — reach out directly via GitHub or through the project repositories.
 
 <div align="center">
 
-*CircleAI — Engineering the Future of Gulf Enterprise*
+---
 
-📍 Saudi Arabia  |  🌐 Enterprise SaaS  |  🤖 AI-Native Platforms
+*CircleAI — Engineering the infrastructure of Saudi enterprise intelligence.*
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1e293b,100:0f172a&height=100&section=footer)
+[![GitHub](https://img.shields.io/badge/GitHub-Eng--AhmedElmannan-181717?style=for-the-badge&logo=github)](https://github.com/Eng-AhmedElmannan)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:1e3a5f&height=80&section=footer" width="100%"/>
 
 </div>
