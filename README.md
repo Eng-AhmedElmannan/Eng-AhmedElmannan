@@ -57,7 +57,7 @@ each independently deployable and jointly composable through a shared infrastruc
 
 ---
 
-## CircleLAW — Enterprise Legal Practice Management `[LIVE · v1.10]`
+## CircleLAW — Enterprise Legal Practice Management `[LIVE · v1.29.0]`
 
 Full-lifecycle legal practice management platform for Saudi law firms and corporate legal
 departments. Production-hardened across 10+ versioned releases with an immutable deployment
