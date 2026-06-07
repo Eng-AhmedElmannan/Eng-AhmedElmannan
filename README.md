@@ -7,7 +7,7 @@
 
 [![Location](https://img.shields.io/badge/📍-Riyadh%2C%20Saudi%20Arabia-1e3a5f?style=flat-square)](https://github.com/Eng-AhmedElmannan)
 [![Focus](https://img.shields.io/badge/Focus-Enterprise%20SaaS%20%7C%20KSA%20Compliance-6366f1?style=flat-square)](https://github.com/Eng-AhmedElmannan)
-[![AI](https://img.shields.io/badge/AI-Claude%20API%20%7C%20pgvector%20RAG-10b981?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![AI](https://img.shields.io/badge/AI-Custom%20AI%20%7C%20pgvector%20RAG-10b981?style=flat-square)](https://github.com/Eng-AhmedElmannan)
 [![Vision](https://img.shields.io/badge/Vision-Saudi%20Vision%202030-dc2626?style=flat-square)](https://github.com/Eng-AhmedElmannan)
 
 [![Circle AI](https://img.shields.io/badge/circleai.sa-000000?style=flat-square)](https://circleai.sa)
@@ -59,7 +59,7 @@ Every platform I build is designed for compliance from day one: cryptographic te
 |---|---|
 | **Multi-tenancy** | Separate PostgreSQL database per tenant · custom ORM router with `.using(alias)` discipline · 13-gate structural validation before activation |
 | **ZATCA Phase 2** | Full end-to-end: UBL 2.1 XML · XAdES-BES cryptographic signing · Schematron/XSLT 2.0 (Saxon) validation · 9-tag TLV QR encoding · FATOORA clearance/reporting with retry |
-| **AI & Legal Workflows** | Anthropic Claude: pleading drafts · consultation RAG over local pgvector + sentence-transformers · meeting-notes extraction · PII redaction on output (PDPL-compliant — data stays within tenant boundary) |
+| **AI & Legal Workflows** | Custom AI model: pleading drafts · consultation RAG over local pgvector + sentence-transformers · meeting-notes extraction · PII redaction on output (PDPL-compliant — data stays within tenant boundary) |
 | **Field Encryption** | Fernet for opaque PII fields · AES-SIV deterministic for equality-searchable fields (email, NID) |
 | **Court Integration** | 160+ Saudi courts, cities, and jurisdictions — MOJ-aligned taxonomy · Hijri + Gregorian dual-calendar with automated deadline enforcement |
 | **Billing & Dunning** | Per-tenant plans · feature gating · staged dunning ladder (grace → read-only → locked → suspended) · Redis-versioned cache with fail-closed defaults |
@@ -83,7 +83,7 @@ Every platform I build is designed for compliance from day one: cryptographic te
 Full enterprise trait inheritance from CircleLaw: DB-per-tenant isolation · field-level PII encryption · GlobalAuditLog taxonomy · Stripe billing with webhook idempotency · MS Graph email backend · RBAC + MFA.
 
 **CircleSpend** *(in active development)* — Employee spend management platform.  
-Declarative spend-policy engine: evaluates expenses against limit/approval-rule DSL, deterministic approval routing by amount and cost center. Budget burn-rate tracking with threshold alerts · Claude receipt-OCR enrichment · local pgvector similarity for receipt and client deduplication.
+Declarative spend-policy engine: evaluates expenses against limit/approval-rule DSL, deterministic approval routing by amount and cost center. Budget burn-rate tracking with threshold alerts · AI-powered receipt-OCR enrichment · local pgvector similarity for receipt and client deduplication.
 
 > These share the CircleLaw platform architecture — vertical productization on a proven multi-tenant chassis, not independent rewrites. The architecture is the asset.
 
@@ -100,7 +100,7 @@ Production bilingual EN + Arabic RTL, locale-persisted across sessions. Tag-trig
 ## Engineering Highlights
 
 - **ZATCA Phase-2 end-to-end** — UBL 2.1, XAdES-BES cryptographic signing, Schematron/XSLT 2.0 validation, 9-tag TLV QR, FATOORA submission with retry. One of few engineers to have shipped this complete stack in a live product.
-- **RAG inside a regulated SaaS** — Local pgvector inference on a running Django platform, PII-redacted before any data reaches the Claude API. PDPL-compliant by design, not by policy.
+- **RAG inside a regulated SaaS** — Local pgvector inference on a running Django platform, PII-redacted before any data reaches the AI model. PDPL-compliant by design, not by policy.
 - **True database-per-tenant isolation** — Not schema-level, not row-level: a dedicated PostgreSQL database per tenant, enforced at the ORM router with 13 structural validation gates before activation.
 - **Dual-scheme field encryption** — Fernet for opaque PII, AES-SIV deterministic for equality-searchable fields. Two schemes because the access patterns are fundamentally different.
 - **Solo, shipped, maintained** — One engineer. Every design decision, migration, deployment, and production incident. 2+ years. Live B2B SaaS.
@@ -141,13 +141,13 @@ The Circle AI platforms are architected for the regulatory and cultural context 
 ## AI Integration Layers
 
 **Layer 1 — Operational Intelligence (CircleLaw · Live)**  
-Consultation RAG over local pgvector embeddings, pleading generation, legal document drafting, meeting-notes extraction — via Anthropic Claude. PII is redacted before leaving the tenant compute boundary. PDPL-compliant by architecture.
+Consultation RAG over local pgvector embeddings, pleading generation, legal document drafting, meeting-notes extraction — via a custom proprietary AI model. PII is redacted before leaving the tenant compute boundary. PDPL-compliant by architecture.
 
 **Layer 2 — Operational Enrichment (CircleSpend · In Development)**  
-Claude-powered receipt OCR enrichment, local pgvector similarity for receipt and client deduplication. Spend-policy evaluation is deterministic — AI enriches input, policy enforces output.
+AI-powered receipt OCR enrichment, local pgvector similarity for receipt and client deduplication. Spend-policy evaluation is deterministic — AI enriches input, policy enforces output.
 
 **Layer 3 — Platform Intelligence (Planned)**  
-Provider-agnostic inference interface (Anthropic, OpenAI, or self-hosted) attaching to any CircleAI platform through a stable internal contract. Federated architecture — tenant data never crosses its isolation boundary.
+Provider-agnostic inference interface attaching to any CircleAI platform through a stable internal API contract. Supports proprietary, open-source, and self-hosted models. Federated architecture — tenant data never crosses its isolation boundary.
 
 ---
 
