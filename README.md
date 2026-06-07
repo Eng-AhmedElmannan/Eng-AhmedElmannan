@@ -1,346 +1,153 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:6366f1&height=160&section=header&text=Ahmed%20Ata%20Elmannan&fontSize=36&fontColor=ffffff&fontAlignY=45&desc=EVP%20of%20Technology%20%E2%80%94%20CircleAI%20Ecosystem&descSize=16&descAlignY=68&descColor=c7d2fe" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:6366f1&height=160&section=header&text=Ahmed%20Ata%20Elmannan&fontSize=36&fontColor=ffffff&fontAlignY=45&desc=Enterprise%20Architect%20%E2%80%94%20Circle%20AI%20Founder%20%E2%80%94%20Riyadh%2C%20KSA&descSize=16&descAlignY=68&descColor=c7d2fe" width="100%" alt="header"/>
 
-**Executive Vice President of Technology**
-*Enterprise Software Architecture · Cloud-Native SaaS · AI Systems Design*
+**Enterprise Software Architect · Circle AI Founder · EVP Technology**  
+*Multi-Tenant SaaS · Arabic-first Compliance Systems · AI-Augmented Platforms*
 
-[![Location](https://img.shields.io/badge/📍-Saudi%20Arabia%20%7C%20Gulf%20Region-1e3a5f?style=flat-square)](https://github.com/Eng-AhmedElmannan)
-[![Focus](https://img.shields.io/badge/Focus-Enterprise%20SaaS%20%7C%20Multi--Tenant%20Platforms-6366f1?style=flat-square)](https://github.com/Eng-AhmedElmannan)
-[![Security](https://img.shields.io/badge/Security-MFA%20%7C%20Encrypted%20Vault%20%7C%20Audit%20Log-10b981?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![Location](https://img.shields.io/badge/📍-Riyadh%2C%20Saudi%20Arabia-1e3a5f?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![Focus](https://img.shields.io/badge/Focus-Enterprise%20SaaS%20%7C%20KSA%20Compliance-6366f1?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+[![AI](https://img.shields.io/badge/AI-Claude%20API%20%7C%20pgvector%20RAG-10b981?style=flat-square)](https://github.com/Eng-AhmedElmannan)
 [![Vision](https://img.shields.io/badge/Vision-Saudi%20Vision%202030-dc2626?style=flat-square)](https://github.com/Eng-AhmedElmannan)
+
+[![Circle AI](https://img.shields.io/badge/circleai.sa-000000?style=flat-square)](https://circleai.sa)
+[![CircleLaw](https://img.shields.io/badge/law.circleai.sa-Live-000000?style=flat-square)](https://law.circleai.sa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-ata-elmannan-8a11a9238)
 
 </div>
 
 ---
 
-## Executive Introduction
+## About
 
-I lead platform architecture and product strategy for the **CircleAI** ecosystem — a suite of
-enterprise-grade, multi-tenant SaaS platforms purpose-built for the Saudi and Gulf markets.
+I architect and ship enterprise-grade multi-tenant SaaS platforms for the Saudi and Gulf market — alone.
 
-My work sits at the intersection of distributed systems design, enterprise security architecture,
-and AI-augmented product strategy. Every platform I build is designed to operate at compliance
-grade from day one: SOC 2-aligned audit trails, cryptographic tenant isolation, multi-factor
-authentication, zero-trust permission models, and container-native infrastructure with full
-production observability.
+Every platform I build is designed for compliance from day one: cryptographic tenant isolation, regulatory integration (ZATCA Phase 2, PDPL, MOJ court taxonomy), AI-augmented workflows, and immutable production governance. The platforms under this profile are not prototypes. They carry production workloads for law firms operating in an environment where uptime, data integrity, and regulatory compliance are non-negotiable.
 
-The platforms I architect are not prototypes. They carry production workloads for law firms,
-enterprises, and public-sector entities — environments where uptime, data integrity, and regulatory
-compliance are non-negotiable.
+> *Design for isolation first. Compose second. Scale third.*
 
 ---
 
-## The CircleAI Ecosystem
-
-**CircleAI** is a unified intelligent enterprise platform composed of three specialized verticals,
-each independently deployable and jointly composable through a shared infrastructure layer.
+## The Circle AI Ecosystem
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                        C I R C L E  A I                                 │
-│              Unified Intelligent Enterprise Platform                    │
+│                  Enterprise Platform Suite · circleai.sa                │
 ├──────────────────┬──────────────────────┬──────────────────────────────┤
-│   CircleLAW      │    CircleHR          │    CircleFinance             │
+│   CircleLaw      │    CircleCRM         │    CircleSpend               │
 │   ─────────────  │    ──────────────    │    ──────────────────────    │
-│   Enterprise     │    Intelligent       │    Smart Financial           │
-│   Legal Practice │    Human Capital &   │    Operations &              │
-│   Management     │    Payroll Platform  │    Cost Intelligence         │
-│                  │                      │                              │
-│   ✓ LIVE v1.10   │    ◎ In Development  │    ◎ In Development          │
+│   Enterprise     │    Multi-Tenant      │    Employee Spend            │
+│   Legal Practice │    CRM Platform      │    Management &              │
+│   Management     │    Leads · Projects  │    Policy Engine             │
+│                  │    Invoices · CX     │                              │
+│   ✓ LIVE v2.22   │    ◎ In Development  │    ◎ In Development          │
 ├──────────────────┴──────────────────────┴──────────────────────────────┤
 │                    SHARED PLATFORM LAYER                                │
-│   Multi-Tenant Engine · RBAC/RLS · MFA · Audit Trails · Billing Engine │
-│   Docker Compose · PostgreSQL 15 Clusters · Redis 7 · Celery · PgBouncer│
+│   DB-per-Tenant Engine · RBAC/MFA · Audit Log · Subscription Billing   │
+│   Django 5 · PostgreSQL 15 + pgvector · Redis 7 · Celery · PgBouncer  │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## CircleLAW — Enterprise Legal Practice Management `[LIVE · v1.29.0]`
+## CircleLaw — Flagship `[LIVE · v2.22.3]`
 
-Full-lifecycle legal practice management platform for Saudi law firms and corporate legal
-departments. Production-hardened across 10+ versioned releases with an immutable deployment
-governance model.
-
-### Platform Capabilities
+> Enterprise legal-practice management for KSA/MENA law firms · [law.circleai.sa](https://law.circleai.sa)
 
 | Capability | Detail |
 |---|---|
-| Case Lifecycle | End-to-end from intake through judgment, appeal, and enforcement |
-| Court Integration | 160+ Saudi courts, cities, and jurisdictions — MOJ-aligned taxonomy |
-| Calendar Engine | Hijri + Gregorian dual-calendar with automated deadline enforcement |
-| Document Engine | OCR pipeline (Arabic + English), template management, digital signatures |
-| Permission Depth | 18+ granular RBAC permissions across 4 access tiers |
-| MFA Security | TOTP + Email OTP with Redis-backed challenge store and context fingerprinting |
-| Compliance | Structured audit log retention, row-level tenant isolation, encrypted vault |
-| API Surface | 200+ REST endpoints — OpenAPI/Swagger documented |
-| Client Portal | Dedicated read-only portal for client case and invoice access |
-
-### Technical Stack
-
-| Layer | Technology |
-|---|---|
-| Backend | Django 5 + Django REST Framework + Celery + Celery Beat |
-| Frontend | Vue 3 (Composition API) + Vite + TailwindCSS v3 |
-| Database | PostgreSQL 15 — database-per-tenant architecture |
-| Connection Pooler | PgBouncer (transaction mode, port 6432) |
-| Cache / Broker | Redis 7 |
-| Authentication | JWT sessions + TOTP/Email MFA (Redis challenge store, HMAC-verified OTP) |
-| Deployment | Docker Compose — self-hosted VPS, Ubuntu |
-| CI/CD | GitHub Actions — semver-tagged immutable releases |
-| Reverse Proxy | Caddy (automatic HTTPS, HTTP/2) |
-
-### Production Maturity Indicators
+| **Multi-tenancy** | Separate PostgreSQL database per tenant · custom ORM router with `.using(alias)` discipline · 13-gate structural validation before activation |
+| **ZATCA Phase 2** | Full end-to-end: UBL 2.1 XML · XAdES-BES cryptographic signing · Schematron/XSLT 2.0 (Saxon) validation · 9-tag TLV QR encoding · FATOORA clearance/reporting with retry |
+| **AI & Legal Workflows** | Anthropic Claude: pleading drafts · consultation RAG over local pgvector + sentence-transformers · meeting-notes extraction · PII redaction on output (PDPL-compliant — data stays within tenant boundary) |
+| **Field Encryption** | Fernet for opaque PII fields · AES-SIV deterministic for equality-searchable fields (email, NID) |
+| **Court Integration** | 160+ Saudi courts, cities, and jurisdictions — MOJ-aligned taxonomy · Hijri + Gregorian dual-calendar with automated deadline enforcement |
+| **Billing & Dunning** | Per-tenant plans · feature gating · staged dunning ladder (grace → read-only → locked → suspended) · Redis-versioned cache with fail-closed defaults |
+| **Security** | TOTP + Email OTP MFA · Lua atomic Redis challenge commit/verify · context fingerprinting · RBAC across 4 access tiers · brute-force lockout |
+| **Release Governance** | `develop → PR → main → annotated tag → VPS` only · weekly automated pipeline · zero production hotfixes · full traceability: tag → PR → CI → deploy event |
 
 ```
-Release cadence   →  v1.0 → v1.10.5 — 10+ production releases
-Deployment model  →  Immutable: semver tags → GitHub Actions → VPS checkout
-Governance        →  No direct commits to main · No hotfixes on VPS · Full audit trail
-Security posture  →  MFA · Encrypted field vault · Brute-force lockout · CSRF · CSP
-Database scale    →  149-table core schema + 128-135 tables per tenant DB
-API surface       →  200+ REST endpoints, fully documented
-Migration safety  →  Atomic migrations · Alias guards · Cross-DB contamination blocked
+~1,857 commits · v2.22.3 (prod v2.21.2) · 81 models · 70+ API resources · 200+ REST routes
+347 migrations · solo-authored · hardened self-hosted deployment · live in production
 ```
+
+**Stack:** `Django 5` `DRF` `Celery` `Vue 3` `Vite` `Pinia` `TypeScript` `Astro 4` `PostgreSQL 15` `pgvector` `PgBouncer` `Redis 7` `Docker` `Caddy`
+
+---
+
+## Circle AI Platform Suite
+
+*The CircleLaw multi-tenant engine, productized into adjacent verticals — one architecture, multiple domains:*
+
+**CircleCRM** — Generic multi-tenant CRM (leads, clients, projects, tasks, invoices, estimates, support tickets).  
+Full enterprise trait inheritance from CircleLaw: DB-per-tenant isolation · field-level PII encryption · GlobalAuditLog taxonomy · Stripe billing with webhook idempotency · MS Graph email backend · RBAC + MFA.
+
+**CircleSpend** *(in active development)* — Employee spend management platform.  
+Declarative spend-policy engine: evaluates expenses against limit/approval-rule DSL, deterministic approval routing by amount and cost center. Budget burn-rate tracking with threshold alerts · Claude receipt-OCR enrichment · local pgvector similarity for receipt and client deduplication.
+
+> These share the CircleLaw platform architecture — vertical productization on a proven multi-tenant chassis, not independent rewrites. The architecture is the asset.
+
+---
+
+## circleai.sa — Corporate Site
+
+> `Next.js 16` `React 19` `Tailwind 4` `shadcn/ui` · [circleai.sa](https://circleai.sa) · 14 tagged releases (v0.3.1)
+
+Production bilingual EN + Arabic RTL, locale-persisted across sessions. Tag-triggered CI/CD · Docker multi-stage non-root builds · health-check gate (12×5s) · **auto-rollback to previous image digest on failure** · hardened reverse-proxy headers.
+
+---
+
+## Engineering Highlights
+
+- **ZATCA Phase-2 end-to-end** — UBL 2.1, XAdES-BES cryptographic signing, Schematron/XSLT 2.0 validation, 9-tag TLV QR, FATOORA submission with retry. One of few engineers to have shipped this complete stack in a live product.
+- **RAG inside a regulated SaaS** — Local pgvector inference on a running Django platform, PII-redacted before any data reaches the Claude API. PDPL-compliant by design, not by policy.
+- **True database-per-tenant isolation** — Not schema-level, not row-level: a dedicated PostgreSQL database per tenant, enforced at the ORM router with 13 structural validation gates before activation.
+- **Dual-scheme field encryption** — Fernet for opaque PII, AES-SIV deterministic for equality-searchable fields. Two schemes because the access patterns are fundamentally different.
+- **Solo, shipped, maintained** — One engineer. Every design decision, migration, deployment, and production incident. 2+ years. Live B2B SaaS.
 
 ---
 
 ## Platform Architecture Philosophy
 
-> *"Design for isolation first. Compose second. Scale third."*
+**Isolation is a first-order constraint.**  
+Tenant isolation is not a layer added to a single-tenant system. It is the structural premise that determines every database schema, every ORM query, and every permission check. It cannot be retrofitted — it must be the premise.
 
-Every platform in the CircleAI ecosystem follows five non-negotiable architectural principles:
+**Security is defined before the first migration is written.**  
+MFA, encryption design, and audit trail structure are architectural decisions, not features added post-launch. The CircleLaw MFA system — TOTP + Email OTP, Redis-backed Lua atomic challenge store, context fingerprinting — was specified as a security constraint before any application code was written.
 
-**1. Tenant Isolation at the Database Layer**
-Each customer operates on a dedicated PostgreSQL database with no shared table space.
-PgBouncer (transaction mode) provides connection pooling without compromising isolation.
-Cross-database foreign keys are explicitly prohibited; reference data is routed via a
-purpose-built DB router to the global core database.
+**Governance is not overhead — it is the product.**  
+An immutable deployment pipeline, audit-logged releases, and a prohibition on VPS hotfixes are not bureaucracy. They are the mechanism by which a system remains trustworthy across years of change. Every CircleLaw production release is traceable to a git tag, a PR, a CI run, and a deploy event. That traceability is the architecture.
 
-**2. Security as a First-Class Design Constraint**
-Zero-trust is not a feature added post-launch. MFA is implemented at the authentication
-layer with provider-agnostic architecture (TOTP and Email OTP supported simultaneously).
-Permission enforcement runs at three independent layers: database routing, API viewset
-policy, and frontend route guards. Every privileged action is audited.
+**Architecture is a long-term bet.**  
+Every technical decision is evaluated against a 5-year maintenance cost, not a 5-week delivery timeline. Premature abstraction and feature-driven complexity are more expensive than the problems they were supposed to solve.
 
-**3. Upgrade-Safe Modularity**
-Platform modules are structured so that any component can be disabled, upgraded, or replaced
-without side-effects on neighbouring modules. Migrations are atomic, reversible, and protected
-by alias guards to prevent cross-database contamination.
-
-**4. Observability by Default**
-Structured logging, health endpoints, and container-level monitoring are wired at the framework
-level — not bolted on. Health endpoints expose dependency status (DB, cache, celery) without
-leaking internal topology. Production deploys are gated on health check passage.
-
-**5. AI-Readiness Without Vendor Lock-in**
-Platform data models are normalised for AI workload ingestion. Inference endpoints,
-embedding pipelines, and LLM orchestration layers can attach to any CircleAI platform
-through a stable internal API contract — provider-agnostic by design.
+**AI augments. It does not replace.**  
+In legal, HR, and financial domains, AI is a decision-support instrument. Autonomous AI action in any domain that produces a legal record, a disbursement, or a financial entry is an architectural anti-pattern. Human confirmation is a system requirement, not an option.
 
 ---
 
-## Security & Compliance Architecture
+## Saudi & Gulf Market Focus
 
-```
-Authentication Layer
-  └── JWT sessions with configurable expiry
-  └── MFA: TOTP (authenticator apps) + Email OTP (Celery-delivered)
-  └── Redis-backed challenge store: HMAC-verified OTP, Lua atomic commit/verify
-  └── Context fingerprinting: UA + subnet + tenant hash — logs anomalies
-  └── Brute-force lockout · Password strength enforcement · Account lockout audit
+The Circle AI platforms are architected for the regulatory and cultural context of Saudi Arabia and the GCC:
 
-Authorization Layer
-  └── RBAC: Role → Permission (module.action) · 3-level access: view / partial / full
-  └── 4 access tiers: Owner, Admin, Staff, Client Portal
-  └── RLS: Tenant DB isolation · Row-filtered queries · Admin bypass with audit log
-  └── 18+ granular permissions — case-level, document-level, invoice-level
-
-Data Protection Layer
-  └── Fernet encryption (client vault) · AES field-level encryption
-  └── Row-level change audit · Global audit log (platform operations)
-  └── FIELD_ENCRYPTION_KEY + SECRET_KEY: immutable per environment, vault-managed
-  └── Automated daily PostgreSQL backups · Configurable retention
-
-Transport & Infrastructure Layer
-  └── HTTPS enforced (HSTS, SECURE_SSL_REDIRECT via Caddy) · CSRF protection
-  └── CSP headers · Rate limiting (per-user + per-IP) · Sanitized error responses
-  └── No port 8000 host-mapped — all external traffic through Caddy 80/443
-  └── PgBouncer: DB credentials never exposed to application layer directly
-
-Compliance Posture
-  └── SOC2 Type II aligned architecture
-  └── PDPL (Saudi Personal Data Protection Law) controls
-  └── Structured audit retention · Zero-knowledge tenant isolation
-  └── Full deployment audit trail via immutable git tags + GitHub Actions logs
-```
+- **Arabic-first UX** — RTL layout, Arabic error messages, Hijri + Gregorian dual-calendar with automated deadline enforcement
+- **ZATCA Phase 2** — Full e-invoicing compliance with cryptographic signing (XAdES-BES) and FATOORA integration, live in production
+- **PDPL Architecture** — Saudi Personal Data Protection Law controls at the infrastructure level; AI inference runs locally within tenant boundary, data never leaves
+- **Saudi Legal Context** — 160+ court jurisdictions aligned to MOJ taxonomy; Wakalah, appeal windows, and Saudi court procedure modelled at the domain layer
+- **Vision 2030** — Locally-built, sovereign-grade enterprise platforms replacing imported software in Saudi legal and enterprise markets
 
 ---
 
-## Immutable Deployment Governance
+## AI Integration Layers
 
-CircleLAW operates under a production governance model designed for auditability,
-determinism, and reversibility:
+**Layer 1 — Operational Intelligence (CircleLaw · Live)**  
+Consultation RAG over local pgvector embeddings, pleading generation, legal document drafting, meeting-notes extraction — via Anthropic Claude. PII is redacted before leaving the tenant compute boundary. PDPL-compliant by architecture.
 
-```
-LOCAL DEVELOPMENT
-─────────────────
-  Develop on feature branches → commit to develop → push to GitHub
+**Layer 2 — Operational Enrichment (CircleSpend · In Development)**  
+Claude-powered receipt OCR enrichment, local pgvector similarity for receipt and client deduplication. Spend-policy evaluation is deterministic — AI enriches input, policy enforces output.
 
-        │
-        ▼  GitHub Actions CI gates
-        │
-PULL REQUEST  (develop → main)
-──────────────────────────────
-  Docker build validation · Security scan · Migration check
-  No PR merges with failing required CI gates
-
-        │
-        ▼  main is now at validated commit
-        │
-RELEASE TAG  (annotated semver, on main)
-────────────────────────────────────────
-  git tag -a v1.10.5 -m "Release v1.10.5: ..."
-  git push origin v1.10.5
-
-        │
-        ▼  GitHub Actions deployment workflow triggered
-        │
-VPS DEPLOYMENT  (automated, immutable)
-───────────────────────────────────────
-  git fetch --tags
-  git checkout v1.10.5          ← detached HEAD — always pinned to tag
-  docker compose -f docker-compose.prod.yml up -d --build
-  manage.py migrate --noinput
-  health check → confirmed
-
-        │
-        ▼
-POST-DEPLOY SYNC
-────────────────
-  develop synced to main immediately after every merge
-```
-
-**Governance constraints (absolute, no exceptions):**
-- `main` advances only via PR merge — never direct commits
-- VPS always runs a detached HEAD at a version tag — never a branch
-- `git pull` is permanently prohibited on VPS
-- All fixes — including critical security patches — travel the full pipeline
-- No files edited directly on VPS filesystem (configuration drift = governance violation)
-
----
-
-## Multi-Tenant Architecture
-
-The CircleAI platforms implement **database-per-tenant** isolation — the most robust
-multi-tenancy model for enterprise workloads.
-
-```
-Platform Request Lifecycle
-─────────────────────────
-HTTP Request
-    │
-    ├─► Platform Auth Middleware   (validates JWT, MFA status)
-    │
-    ├─► Tenant Resolution          (slug → DB alias lookup from circlelaw_core)
-    │
-    ├─► DB Router Activation       (routes ORM to tenant DB)
-    │
-    ├─► PgBouncer (port 6432)      (transaction-mode pooling — auth_type=any)
-    │
-    ├─► Tenant PostgreSQL DB       (fully isolated schema — 128-135 tables)
-    │       ├── Cases, Clients, Invoices, Staff, Documents...
-    │       └── No shared tables with any other tenant
-    │
-    └─► Response (tenant-scoped, RLS-filtered)
-
-Database Topology
-──────────────────
-PostgreSQL 15 instance
-  ├── circlelaw          ← default Django DB (149 tables)
-  ├── circlelaw_core     ← platform core: tenants, billing, users (26 tables)
-  └── circlelaw_tenant_* ← one DB per tenant (128-135 tables each)
-
-Reference data (courts, jurisdictions, currencies) routes via DB router
-to circlelaw_core — never stored per-tenant, never cross-DB foreign keys.
-```
-
-**Subscription Lifecycle Management**
-Each tenant subscription follows canonical lifecycle states:
-`trial → active → grace → read_only → locked → cancelled`
-Dunning progression is automated. Billing cycle drives permission enforcement in real time.
-
----
-
-## AI Integration Strategy
-
-The CircleAI platforms are engineered with three AI integration layers:
-
-**Layer 1 — Operational Intelligence (CircleLAW, live)**
-Pattern recognition on case timelines, deadline risk scoring based on historical hearing data,
-and automated document classification using the existing OCR pipeline. Deterministic
-rule-based AI primitives — no external API dependency.
-
-**Layer 2 — Generative Augmentation (CircleHR, in development)**
-LLM-backed HR Copilot for natural-language policy retrieval, contract clause explanation,
-and onboarding workflow guidance. Built against a provider-agnostic inference interface
-supporting OpenAI, Anthropic, and locally-hosted models.
-
-**Layer 3 — Predictive Analytics Engine (CircleFinance, in development)**
-Time-series forecasting for payroll, cash flow, and budget variance. Statistical models
-trained on per-tenant historical data — federated architecture ensures tenant data never
-leaves its isolated compute boundary.
-
-> **Architecture Constraint**: AI augmentation enhances decision-making. It does not make
-> autonomous decisions in legal, payroll, or financial domains. Human confirmation is required
-> for any AI-generated output that produces a downstream legal or financial record.
-
----
-
-## CircleHR — Intelligent Human Capital Platform `[In Development]`
-
-AI-augmented HR and payroll intelligence platform aligned with Saudi regulatory requirements.
-
-| Capability | Detail |
-|---|---|
-| Compliance Engine | WPS (Wage Protection System), Qiwa, GOSI integration |
-| AI Copilot | Context-aware HR assistant for policy queries and workflow guidance |
-| Payroll Forecasting | Predictive payroll engine with variance alerts |
-| Smart Scheduling | AI-driven shift optimisation and conflict resolution |
-| Expense Governance | OCR receipt processing, policy enforcement, GL integration |
-| Analytics | Predictive attrition modelling, workforce insights |
-
----
-
-## CircleFinance — Smart Financial Operations Platform `[In Development]`
-
-AI-driven financial intelligence platform for enterprise CFO visibility and operational control.
-
-| Capability | Detail |
-|---|---|
-| Financial Intelligence | AI-driven variance analysis and anomaly detection |
-| Cash Flow Modelling | Predictive rolling forecasts with scenario simulation |
-| Budget Governance | Real-time consumption tracking with threshold alerting |
-| GL Automation | Automated journal entries with rule-based posting engine |
-| ERP Integration | Standardised integration layer for Odoo, SAP, Oracle |
-| CFO Dashboards | Executive KPI visualisation with drill-through capability |
-| Multi-Entity | Consolidated reporting across legal entities and cost centres |
-
----
-
-## Saudi & Gulf Digital Transformation
-
-The CircleAI platforms are architected specifically for the regulatory and cultural context
-of Saudi Arabia and the Gulf Cooperation Council:
-
-- **Arabic-first UX** — RTL layout, Cairo typeface, Arabic error messages, Hijri calendar
-- **Saudi Legal Compliance** — Court taxonomy aligned to MOJ structure, 160+ jurisdictions
-- **Saudi HR Compliance** — WPS, Qiwa, GOSI payroll integration ready
-- **PDPL Alignment** — Saudi Personal Data Protection Law architectural controls
-- **Vision 2030 Positioning** — Replacing imported enterprise software with locally-built,
-  sovereign-grade platforms for Saudi law firms, enterprises, and government entities
-- **SAR Native** — Financial calculations, invoicing, and reporting in Saudi Riyals with
-  cultural formatting (Arabic numeral conventions, SAR symbol)
+**Layer 3 — Platform Intelligence (Planned)**  
+Provider-agnostic inference interface (Anthropic, OpenAI, or self-hosted) attaching to any CircleAI platform through a stable internal contract. Federated architecture — tenant data never crosses its isolation boundary.
 
 ---
 
@@ -348,64 +155,34 @@ of Saudi Arabia and the Gulf Cooperation Council:
 
 | Horizon | Initiative | Status |
 |---|---|---|
-| **Now** | CircleLAW v1.10 — Production-hardened, active feature development | ✅ Live |
-| **Q1–Q2 2026** | CircleHR Alpha — Core HR, payroll engine, Qiwa/GOSI connectors | 🔨 Active |
-| **Q2 2026** | CircleHR Beta — AI Copilot, smart scheduling, expense OCR | 📋 Planned |
-| **Q2 2026** | CircleFinance Alpha — GL engine, budget governance, CFO dashboard | 📋 Planned |
-| **Q3 2026** | CircleAI Platform Layer — Shared identity, unified billing, SSO | 📋 Planned |
-| **Q4 2026** | CircleFinance Beta — Cash flow AI, ERP integration, risk scoring | 📋 Planned |
-| **2027** | CircleAI Unified — Cross-platform intelligence, federated analytics | 🔭 Vision |
-| **2027** | SOC2 Type II Certification — Formal audit engagement | 🔭 Vision |
-| **2027+** | Gulf Regional Expansion — UAE, Kuwait, Bahrain market entry | 🔭 Vision |
+| **Now** | CircleLaw v2.x — Production-hardened, active feature development | ✅ Live |
+| **Now** | CircleCRM — Multi-tenant CRM platform productization | 🔨 Active |
+| **Q3 2026** | CircleSpend — Spend management, policy engine, budget tracking | 🔨 Active |
+| **Q4 2026** | CircleHR — HR & payroll platform, Qiwa / GOSI / WPS integration | 📋 Planned |
+| **2027** | CircleFinance — CFO intelligence, cash-flow AI, GL automation | 📋 Planned |
+| **2027** | CircleAI Unified — Cross-platform intelligence, federated analytics, SSO | 🔭 Vision |
+| **2027+** | Gulf Regional Expansion — UAE, Kuwait, Bahrain | 🔭 Vision |
 
 ---
 
-## Leadership Philosophy
-
-**Architecture is a long-term bet.**
-Every technical decision I make is evaluated against a 5-year maintenance cost, not a 5-week
-delivery timeline. Premature abstraction and feature-driven complexity are more expensive than
-the problem they were supposed to solve.
-
-**Security cannot be retrofitted.**
-MFA, encryption design, and audit trail structure are defined before the first migration is
-written — not during a security review after launch. The CircleLAW MFA system (TOTP + Email
-OTP, Redis-backed challenge store, context fingerprinting) was architected as a security freeze,
-not a feature addition.
-
-**Multi-tenancy is a first-order constraint.**
-Tenant isolation is not a layer added to a single-tenant system. It is the structural premise
-that determines every database schema, every ORM query, and every permission check.
-
-**Governance is not overhead — it is the product.**
-An immutable deployment pipeline, audit-logged releases, and a prohibition on VPS hotfixes are
-not bureaucracy. They are the mechanism by which a system remains trustworthy over years of
-change. Every CircleLAW production release is traceable to a git tag, a PR, a CI run, and a
-deploy event. That traceability is the architecture.
-
-**AI augments. It does not replace.**
-In legal, HR, and financial domains, AI is a decision-support instrument. Autonomous AI action
-in any domain that produces a legal record, a payroll disbursement, or a financial entry is an
-architectural anti-pattern.
-
----
-
-## Contact & Enterprise Collaboration
+## Enterprise Collaboration
 
 I engage with organisations seeking to:
-- Architect or audit enterprise SaaS platforms for the Gulf market
-- Accelerate Saudi Vision 2030 digital transformation initiatives
-- Evaluate or adopt CircleLAW, CircleHR, or CircleFinance
+
+- Architect or audit enterprise SaaS platforms for the Saudi and Gulf market
+- Accelerate Vision 2030 digital transformation initiatives
+- Evaluate or adopt CircleLaw, CircleCRM, or CircleSpend
 - Establish technical partnerships in the enterprise software space
 
-> For enterprise inquiries, architecture consultations, or partnership discussions —
-> reach out directly via GitHub or through the project repositories.
+> For enterprise inquiries, architecture consultations, or partnership discussions — connect via LinkedIn or through the repositories.
 
 <div align="center">
 
+**[circleai.sa](https://circleai.sa) · [law.circleai.sa](https://law.circleai.sa) · [LinkedIn](https://linkedin.com/in/ahmed-ata-elmannan-8a11a9238)**
+
 ---
 
-*CircleAI — Engineering the infrastructure of Saudi enterprise intelligence.*
+*Circle AI — Engineering enterprise-grade software for the Saudi market.*
 
 [![GitHub](https://img.shields.io/badge/GitHub-Eng--AhmedElmannan-181717?style=for-the-badge&logo=github)](https://github.com/Eng-AhmedElmannan)
 
