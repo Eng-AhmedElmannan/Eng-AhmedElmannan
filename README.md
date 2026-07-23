@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:6366f1&height=160&section=header&text=Ahmed%20Ata%20Elmannan&fontSize=36&fontColor=ffffff&fontAlignY=45&desc=Enterprise%20Architect%20%E2%80%94%20Circle%20AI%20Founder%20%E2%80%94%20Riyadh%2C%20KSA&descSize=16&descAlignY=68&descColor=c7d2fe" width="100%" alt="header"/>
 
-**Enterprise Software Architect · Circle AI Founder · EVP Technology**  
+**Enterprise Software Architect · CircleAI Founder · EVP Technology**  
 *Multi-Tenant SaaS · Arabic-first Compliance Systems · AI-Augmented Platforms*
 
 [![Location](https://img.shields.io/badge/📍-Riyadh%2C%20Saudi%20Arabia-1e3a5f?style=flat-square)](https://github.com/Eng-AhmedElmannan)
